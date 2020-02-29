@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.eqtest.testcases.ComparePhonePriceTest">
+      <class name="com.eqtest.testcases.WriteHotelReviewTest">
         <methods>
+          <include name="writeReview"/>
           <include name="e"/>
-          <include name="phoneCompare"/>
           <include name="init"/>
         </methods>
-      </class> <!-- com.eqtest.testcases.ComparePhonePriceTest -->
+      </class> <!-- com.eqtest.testcases.WriteHotelReviewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

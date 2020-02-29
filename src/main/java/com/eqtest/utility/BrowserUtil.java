@@ -28,6 +28,29 @@ public class BrowserUtil {
 	}
 	
 	public static void quitBrowser(WebDriver driver) {
-		driver.close();
+		driver.quit();
 	}
+	
+	public static boolean windowHandle(WebDriver driver,String str1, String str2) {
+		for(String winHandle : driver.getWindowHandles()){
+			String title = driver.switchTo().window(winHandle).getTitle().toLowerCase();
+			if (title.contains(str1.toLowerCase()) && title.contains(str2.toLowerCase()) ) {
+				driver.switchTo().window(winHandle);
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public static boolean windowHandle(WebDriver driver,String str1) {
+		for(String winHandle : driver.getWindowHandles()){
+			String title = driver.switchTo().window(winHandle).getTitle().toLowerCase();
+			if (title.contains(str1.toLowerCase()) ) {
+				driver.switchTo().window(winHandle);
+				return true;
+			}
+		}
+		return false;
+	}
+	
 }

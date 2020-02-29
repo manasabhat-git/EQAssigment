@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52683" started-at="2020-02-26T11:03:31Z" finished-at="2020-02-26T11:04:24Z">
+  <suite name="Default suite" duration-ms="172990" started-at="2020-02-29T12:25:01Z" finished-at="2020-02-29T12:27:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52683" started-at="2020-02-26T11:03:31Z" finished-at="2020-02-26T11:04:24Z">
-      <class name="com.eqtest.testcases.ComparePhonePriceTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.eqtest.testcases.ComparePhonePriceTest@1fcfece]" name="init" is-config="true" duration-ms="12400" started-at="2020-02-26T16:33:31Z" finished-at="2020-02-26T16:33:44Z">
+    <test name="Default test" duration-ms="172990" started-at="2020-02-29T12:25:01Z" finished-at="2020-02-29T12:27:54Z">
+      <class name="com.eqtest.testcases.WriteHotelReviewTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.eqtest.testcases.WriteHotelReviewTest@1fcfece]" name="init" is-config="true" duration-ms="14193" started-at="2020-02-29T17:55:01Z" finished-at="2020-02-29T17:55:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="phoneCompare()[pri:0, instance:com.eqtest.testcases.ComparePhonePriceTest@1fcfece]" name="phoneCompare" duration-ms="39900" started-at="2020-02-26T16:33:44Z" finished-at="2020-02-26T16:34:23Z">
+        <test-method status="PASS" signature="writeReview()[pri:0, instance:com.eqtest.testcases.WriteHotelReviewTest@1fcfece]" name="writeReview" duration-ms="157448" started-at="2020-02-29T17:55:15Z" finished-at="2020-02-29T17:57:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- phoneCompare -->
-        <test-method status="PASS" signature="e()[pri:0, instance:com.eqtest.testcases.ComparePhonePriceTest@1fcfece]" name="e" is-config="true" duration-ms="332" started-at="2020-02-26T16:34:23Z" finished-at="2020-02-26T16:34:24Z">
+        </test-method> <!-- writeReview -->
+        <test-method status="PASS" signature="e()[pri:0, instance:com.eqtest.testcases.WriteHotelReviewTest@1fcfece]" name="e" is-config="true" duration-ms="1279" started-at="2020-02-29T17:57:53Z" finished-at="2020-02-29T17:57:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- e -->
-      </class> <!-- com.eqtest.testcases.ComparePhonePriceTest -->
+      </class> <!-- com.eqtest.testcases.WriteHotelReviewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
